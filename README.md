@@ -1,4 +1,4 @@
-**Day 1**: Hello GPU World
+**Day 0**: Hello GPU World
 
 **Resource**: Read Chapter 1 of Programming Massively Parallel Processors
 
