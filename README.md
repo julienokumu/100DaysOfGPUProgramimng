@@ -57,13 +57,34 @@
 - Learnt aboutr Gustafson's Law
 - Solved a vector addition LeetGPU
 
-  **Challenges Faced**:
-  - Struggled to understand the abstract math behind calculating the global idx and the grid-stride loop
-  - Took some time solving a LeetGPU, had to figure out how to write a test program to follow the implementation details
+**Challenges Faced**:
+ - Struggled to understand the abstract math behind calculating the global idx and the grid-stride loop
+ - Took some time solving a LeetGPU, had to figure out how to write a test program to follow the implementation details
  
-  **Performance Observations**:
-  - Compared sequential and parallel addition of vectors on CPU and GPU respectively and achieved a 29x speedup in the computation, which means the sequential method of the CPU must have been really slow
+**Performance Observations**:
+- Compared sequential and parallel addition of vectors on CPU and GPU respectively and achieved a 29x speedup in the computation, which means the sequential method of the CPU must have been really slow
  
-  **Thought**:
-  - Wondering how many lines of code the largest kernels is
+**Thoughts**:
+- Wondering how many lines of code the largest kernels is
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 3**: Array Multiplication Kernel with Timing
+
+**Resources**: Finished Chapter 2 of PMPP
+
+**What I Learnt**:
+- Learnt about kernel functions and threading
+- Learnt about the built in variables like blockDim.x and threadIdx.x and how many dimensions they handle
+- Learnt the difference between SPMD and SIMD
+- Learnt about qualifier keywords
+
+**Challenges Faced**:
+- NO challenges faced today, getting the hang of the cuda syntax
+
+**Performance Observations**:
+- Tested GPU execution time and found that, the larger the number of threads the less the number of blocks and the faster the execution time and viceversa
+
+**Thought**:
+- How to write 2D kernels
+
+----------------------------------------------------------------------------------------------------------------------------
