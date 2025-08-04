@@ -84,7 +84,27 @@
 **Performance Observations**:
 - Tested GPU execution time and found that, the larger the number of threads the less the number of blocks and the faster the execution time and viceversa
 
-**Thought**:
+**Thoughts**:
 - How to write 2D kernels
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+**Day 4**: Array Multiplication Kernel, GPU vs CPU
+
+**Resources**: Read Chapter 3 of PMPP
+
+**What I Learnt**:
+- Learnt about Multi-dimensional Grids
+- Learnt how to write 2D and 3D arrays
+
+**Challenges Faced**:
+- Had a little trouble with some syntax errors but quickly fixed them
+
+**Performance Observations**:
+- A GPU achieves a max speedup of 2.82x
+- The larger the block size, the faster the kernel and the more the speedup
+- CPU execution time was faster on the 64 block size
+
+**Thoughts**:
+- Why do CPU's perform better with smaller threads?
+---------------------------------------------------------------------------------------------------------------------------
