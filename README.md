@@ -108,3 +108,19 @@
 **Thoughts**:
 - Why do CPU's perform better with smaller threads?
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 5**: 2D Matrix Addition Kernel
+
+**Resources**: Reread Chapter 3 of PMPP
+
+**What I learnt**:
+- Learnt how to handle 2D thread and block indexing
+- Learnt how to implement strides
+- Created a mental model to help me gain intuition on the dimesions of a grid and block
+
+**Challenges Faced**:
+- Took me a bit of time to understand the purpose of stride_x and stride_y
+
+**Thoughts**:
+- I wonder how CPU's perform of 2D computations
+---------------------------------------------------------------------------------------------------------------------------
