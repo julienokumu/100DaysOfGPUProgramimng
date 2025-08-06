@@ -124,3 +124,18 @@
 **Thoughts**:
 - I wonder how CPU's perform of 2D computations
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 6**: 2D Matrix Addition Kernel GPU vs CPU
+
+**Resources**: Chapter 3.4 of PMPP
+
+**What I Learnt**:
+
+- Read about matrix multiplication tiling
+
+**Challenges Faced**:
+- Debugging some syntax errors in the code gave me hell, but getting better at debugging cuda code
+
+**Thoughts**:
+- Same thought as yesterday, will find an answer
+---------------------------------------------------------------------------------------------------------------------------
