@@ -153,3 +153,11 @@
 **Thoughts**:
 - I wonder how CPUs perform compared to GPU in matrix multiplications
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 8**: Optimized a previous Array Multiplication Kernel I wrote
+- Very busy today but i managed to write this kernel.
+
+**Performance Observations**:
+- Removed the grid-stride loop and moved the cudaMemcpy out of the timing loop; doing this significantly improved the gpu execution time, from 0.199ms on 155 blocks to 0.098ms on 157 blocks
+
+---------------------------------------------------------------------------------------------------------------------------
