@@ -161,3 +161,20 @@
 - Removed the grid-stride loop and moved the cudaMemcpy out of the timing loop; doing this significantly improved the gpu execution time, from 0.199ms on 155 blocks to 0.098ms on 157 blocks
 
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 9**: Reduction Sum Kernel
+
+**Resources**: Chapter 4 of PMPP
+
+**What I learnt**:
+- Learnt about the architecture of a modern GPU and block scheduling
+
+**Challenges Faced**:
+- Took a bit of time understanding the maths behind the partial sum
+
+**Performance Observations**:
+- The faster the block size, the faster the execution time
+
+**Thoughts**:
+- What happens if we dont do a partial sun?
+----------------------------------------------------------------------------------------------------------------------------
