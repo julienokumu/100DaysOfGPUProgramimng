@@ -178,3 +178,18 @@
 **Thoughts**:
 - What happens if we dont do a partial sun?
 ----------------------------------------------------------------------------------------------------------------------------
+
+**Day 10**: Metal Flash Attention Kernel
+
+**Resources**: Tinygrad's Generic Metal Flash Attention Kernel
+
+**What I learnt**: 
+- Learnt how to write metal kernels, noted the similarities with cuda
+- Learnt how to write attention computation
+
+**Challenges Faced**:
+- It was difficult translating the code from a cuda-minded perspective
+
+**Thoughts**:
+- I wonder how a cuda flash attention kernel is written
+------------------------------------------------------------------------------------------------------------------------------
