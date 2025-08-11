@@ -193,3 +193,8 @@
 **Thoughts**:
 - I wonder how a cuda flash attention kernel is written
 ------------------------------------------------------------------------------------------------------------------------------
+
+**Day 11**: Reduction Sum Kernel, GPU vs CPU
+
+- wrote a reduction sum kernel and compared performance between gpu and cpu, faced a challenge when rounding off the gpu and cpu sum as they weren't matching but managed to fix it
+--------------------------------------------------------------------------------------------------------------------------
