@@ -198,3 +198,10 @@
 
 - wrote a reduction sum kernel and compared performance between gpu and cpu, faced a challenge when rounding off the gpu and cpu sum as they weren't matching but managed to fix it
 --------------------------------------------------------------------------------------------------------------------------
+
+**Day 12**: Dot Product Kernel
+
+- wrote a dot product kernel with shared memory, reduction strategy and an atomic operations
+- learnt how to profile my kernel with nvprof instead of manually testing for gpu execution time
+- noticed that cudaMalloc takes up most of the gpu's execution time
+------------------------------------------------------------------------------------------------------------------------------------
