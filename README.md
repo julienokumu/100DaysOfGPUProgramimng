@@ -205,3 +205,8 @@
 - learnt how to profile my kernel with nvprof instead of manually testing for gpu execution time
 - noticed that cudaMalloc takes up most of the gpu's execution time
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 13**: LeetGPU Dot Product Kernel
+
+- solved a medium level leetgpu, implemented a CUDA program that computes the dot product of two vectors containing 32-bit floating point numbers
+-----------------------------------------------------------------------------------------------------------------------------
