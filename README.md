@@ -210,3 +210,7 @@
 
 - solved a medium level leetgpu, implemented a CUDA program that computes the dot product of two vectors containing 32-bit floating point numbers
 -----------------------------------------------------------------------------------------------------------------------------
+
+**Day 14**: Matrix Transpose Kernel
+- wrote a matrix transpose kernel with shared memory for tiling, memory coelescing and 2D thread indexing
+-----------------------------------------------------------------------------------------------------------------------------------
