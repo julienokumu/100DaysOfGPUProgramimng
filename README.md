@@ -214,3 +214,8 @@
 **Day 14**: Matrix Transpose Kernel
 - wrote a matrix transpose kernel with shared memory for tiling, memory coelescing and 2D thread indexing
 -----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 15**: Hadamard Product Kernel
+
+- wrote a hadamard product kernel coalesced memory access, no shared memory as each element is accessed once and zero __synchthreads(); to avoid synchronization overhead
+-------------------------------------------------------------------------------------------------------------------------------------
