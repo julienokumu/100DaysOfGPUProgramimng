@@ -219,3 +219,8 @@
 
 - wrote a hadamard product kernel coalesced memory access, no shared memory as each element is accessed once and zero __synchthreads(); to avoid synchronization overhead
 -------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 16**: LeetGPU Matrix Transpose Example 1
+
+- solved a leetgpu problem: Write a program that transposes a matrix of 32-bit floating point numbers on a GPU. The transpose of a matrix switches its rows and columns. Given a matrix A of dimensions rows x cols, the transpose A^T will have dimensions cols x rows. All matrices are stored in row-major format.
+----------------------------------------------------------------------------------------------------------------------------
