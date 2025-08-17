@@ -224,3 +224,8 @@
 
 - solved a leetgpu problem: Write a program that transposes a matrix of 32-bit floating point numbers on a GPU. The transpose of a matrix switches its rows and columns. Given a matrix A of dimensions rows x cols, the transpose A^T will have dimensions cols x rows. All matrices are stored in row-major format.
 ----------------------------------------------------------------------------------------------------------------------------
+
+**Day 17**: LeetGPU Matrix Transpose Example 2
+
+- solved a leetgpu problem: Write a program that transposes a matrix of 32-bit floating point numbers on a GPU. The transpose of a matrix switches its rows and columns. Given a matrix A of dimensions rows x cols, the transpose A^T will have dimensions cols x rows. All matrices are stored in row-major format.
+----------------------------------------------------------------------------------------------------------------------------
