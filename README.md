@@ -229,3 +229,9 @@
 
 - solved a leetgpu problem: Write a program that transposes a matrix of 32-bit floating point numbers on a GPU. The transpose of a matrix switches its rows and columns. Given a matrix A of dimensions rows x cols, the transpose A^T will have dimensions cols x rows. All matrices are stored in row-major format.
 ----------------------------------------------------------------------------------------------------------------------------
+
+**Day 18**: GEMM Kernels
+
+- practised solving 6 leetgpu
+- wrote a 2 GEMM kernels, first test is on perfomance on different A & B matrix shapes and large m, n, k integers, second test is on performance with same A & B matrix shapes and small m, n, k integers
+-------------------------------------------------------------------------------------------------------------------------
