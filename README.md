@@ -235,3 +235,9 @@
 - practised solving 6 leetgpu
 - wrote a 2 GEMM kernels, first test is on perfomance on different A & B matrix shapes and large m, n, k integers, second test is on performance with same A & B matrix shapes and small m, n, k integers
 -------------------------------------------------------------------------------------------------------------------------
+
+**Day 19**: LeetGPU FP16 Gemm Kernel
+
+- solved another medium level leetgpu problem by writing a FP16 gemm...thats 4/42 solved
+
+  ---------------------------------------------------------------------------------------------------------------------------
