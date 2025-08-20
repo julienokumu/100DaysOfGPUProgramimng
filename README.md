@@ -241,3 +241,7 @@
 - solved another medium level leetgpu problem by writing a FP16 gemm...thats 4/42 solved
 
   ---------------------------------------------------------------------------------------------------------------------------
+**Day 20**: Optimized GEMM kernel
+- practised solving 3 leetgpu problems, wrote an optimized GEMM kernel by use tiled shared memory
+
+---------------------------------------------------------------------------------------------------------------------------
