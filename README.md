@@ -251,3 +251,7 @@
 - will be practicing leetgpu for the rest of the day
 
 -------------------------------------------------------------------------------------------------------------------------------
+
+**Day 22**: Vector Subtraction Kernel
+- wrote a vector subtraction kernel and tested it's performance on 1 million elements
+  -----------------------------------------------------------------------------------------------------------------------
