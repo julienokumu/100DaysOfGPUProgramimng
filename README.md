@@ -245,3 +245,9 @@
 - practised solving 3 leetgpu problems, wrote an optimized GEMM kernel by use tiled shared memory
 
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 21**: L2 Norm Kernel
+- wrote a L2 Norm vector kernel with shared memory fusing the normalization computation and division, hence reducing global memory access
+- will be practicing leetgpu for the rest of the day
+
+-------------------------------------------------------------------------------------------------------------------------------
