@@ -255,3 +255,8 @@
 **Day 22**: Vector Subtraction Kernel
 - wrote a vector subtraction kernel and tested it's performance on 1 million elements
   -----------------------------------------------------------------------------------------------------------------------
+
+**Day 23**: Metal Vector Addition Kernel
+- feeling unwell but managed to rewrite on of my cuda vector add kernel to a metal implemention.
+- learning how the syntax and attributes differ...metal seems much simpler
+--------------------------------------------------------------------------------------------------------------------------
