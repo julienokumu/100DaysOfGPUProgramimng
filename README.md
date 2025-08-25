@@ -260,7 +260,13 @@
 - feeling unwell but managed to rewrite on of my cuda vector add kernel to a metal implemention.
 - learning how the syntax and attributes differ...metal seems much simpler
 --------------------------------------------------------------------------------------------------------------------------
+
 **Day 24**: Metal MatMul Kernel
 - turns out adding a grid-stride loop to my vectorAdd kernel increases perf from 19.64GFLOPS to 19.81GFLOPS, that's 0.866% faster
 - implemented a naive metal matmul kernel, noticing the differences between cuda and metal
 -----------------------------------------------------------------------------------------------------------------------------
+
+**Day 25**: Sigmoid Activation Kernel
+
+- implemented a sigmoid activation kernel
+-----------------------------------------------------------------------------------------------------------------------
