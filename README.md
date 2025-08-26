@@ -270,3 +270,9 @@
 
 - implemented a sigmoid activation kernel
 -----------------------------------------------------------------------------------------------------------------------
+
+**Day 26**: ReLU Activation Kernel
+- implemented a ReLU activation kernel
+- solved a new leetgpu problem(ReLU), thats 5/44 solved now
+- will be practicing leetgpu for the rest of the day
+------------------------------------------------------------------------------------------------------------------------------------
