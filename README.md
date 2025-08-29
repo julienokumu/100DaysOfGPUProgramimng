@@ -284,3 +284,7 @@
 **Day 28**: Max Reduction Kernel
 - wrote a single-block max reduction kernel with shared memory
 -------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 29**: LeetGPU Matrix Multiplication Kernel
+- solved a leetgpu matrix multiplication problem, that's 6/47 now..will stay leetgpu-maxxing for the rest of the day
+-------------------------------------------------------------------------------------------------------------------------------------
